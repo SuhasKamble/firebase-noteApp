@@ -1,0 +1,39 @@
+.write {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.write > form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  margin-top: 200px;
+}
+
+.write > form > input {
+  /* padding: 10px; */
+  border: none;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  font-size: 16px;
+  outline: none;
+}
+.write > form > button {
+  margin-top: 15px;
+  background: #3e93fd;
+}
+
+.write > form > button:hover {
+  background: lightgray;
+  color: black;
+}
+
+@media (max-width: 788px) {
+  .write > form {
+    width: 90%;
+  }
+}

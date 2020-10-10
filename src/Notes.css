@@ -1,0 +1,16 @@
+.notes {
+  padding: 20px;
+  background-color: #4b6584;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+}
+
+.notes p,
+small {
+  color: white;
+}

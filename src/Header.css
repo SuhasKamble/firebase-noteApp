@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+.header__left {
+  display: flex;
+}
+.header__right {
+  display: flex;
+}
+.header__icon {
+  padding-right: 14px;
+}
